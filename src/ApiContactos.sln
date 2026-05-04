@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactosAPI", "ContactosAPI\ContactosAPI.csproj", "{C7244594-A9B3-4A9A-84E3-61B2C4E162A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiContactos.Tests", "ApiContactos.tests\ApiContactos.Tests.csproj", "{21C539A0-8499-41BD-B2FC-E7DDE06F6FE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiContactos.Tests", "ApiContactos.Tests\ApiContactos.Tests.csproj", "{29D6BE3E-8DA5-41D5-BB7B-C6E8E0E92314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{C7244594-A9B3-4A9A-84E3-61B2C4E162A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7244594-A9B3-4A9A-84E3-61B2C4E162A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7244594-A9B3-4A9A-84E3-61B2C4E162A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21C539A0-8499-41BD-B2FC-E7DDE06F6FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21C539A0-8499-41BD-B2FC-E7DDE06F6FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21C539A0-8499-41BD-B2FC-E7DDE06F6FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21C539A0-8499-41BD-B2FC-E7DDE06F6FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D6BE3E-8DA5-41D5-BB7B-C6E8E0E92314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D6BE3E-8DA5-41D5-BB7B-C6E8E0E92314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D6BE3E-8DA5-41D5-BB7B-C6E8E0E92314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D6BE3E-8DA5-41D5-BB7B-C6E8E0E92314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
