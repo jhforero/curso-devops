@@ -1,0 +1,9 @@
+appsettings*.json
+
+bin/
+obj/
+
+*.tfstate
+/.terraform
+*.tfstate.*
+*.tfvars
