@@ -1,0 +1,24 @@
+name: API Concatos CI/CD
+
+on:
+    push:
+        branches: ["main"]
+env:
+    IMAGE_BASE_NAME: jhforero77/apicontactos
+
+jobs:
+    API_IMAGE:
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: src/ContactosAPI
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Looking for files
+              run: ls -a             
+              
+            - name: Build Docker Net Image
+              run: |
+                docker build --platform linux -t $IMAGE_BASE_NAME .
